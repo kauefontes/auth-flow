@@ -22,10 +22,10 @@ class Auth : ViewModel() {
     }
 
     fun login(){
-        navigateTo("session")
+        navigateTo("home")
     }
 
-    fun logoun(){
+    fun logout(){
         navigateTo("login")
     }
 }

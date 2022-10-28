@@ -22,7 +22,7 @@ fun Home(viewModel: Auth){
         modifier = Modifier.fillMaxSize()
     ) {
         Text("You have logged in")
-        Button(onClick = {}) {
+        Button(onClick = viewModel::logout) {
             Text("Log out")
         }
     }

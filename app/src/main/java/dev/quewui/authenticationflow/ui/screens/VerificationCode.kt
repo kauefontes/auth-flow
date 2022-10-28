@@ -26,7 +26,7 @@ fun VerificationCode(viewModel: Auth) {
                 Text("Verification code")
             }
         )
-        Button(onClick = { /*TODO*/ }) {
+        Button(onClick = viewModel::verifyCode) {
             Text("Verify")
         }
     }

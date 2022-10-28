@@ -56,10 +56,10 @@ fun SignUp(viewModel: Auth) {
                 Text("Password")
             }
         )
-        Button(onClick = { /*TODO*/ }) {
+        Button(onClick = viewModel::signUp) {
             Text("Sign up")
         }
-        TextButton(onClick = { /*TODO*/ }) {
+        TextButton(onClick = viewModel::showLogin ) {
             Text("Already have an account? Login!")
         }
     }
